@@ -1,0 +1,10 @@
+[package]
+name = "fnv_hash"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+helix = "0.7.3"
+fnv = "1.0.3"
